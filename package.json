@@ -1,0 +1,56 @@
+{
+  "name": "cliente-final-concurrente",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@faker-js/faker": "^8.3.1",
+    "@mui/icons-material": "~5.11.16",
+    "@mui/material": "^5.15.0",
+    "@mui/styled-engine-sc": "^6.0.0-alpha.8",
+    "@reduxjs/toolkit": "^2.0.1",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "~0.27.2",
+    "classnames": "^2.3.2",
+    "faker": "^6.6.6",
+    "random-uuid-v4": "^0.0.9",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^9.0.4",
+    "react-router-dom": "~6.8.2",
+    "react-scripts": "5.0.1",
+    "styled-components": "~5.3.9",
+    "web-vitals": "^2.1.4"
+  },
+  "resolutions": {
+    "@mui/styled-engine": "npm:@mui/styled-engine-sc@latest"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "~7.21.11"
+  }
+}
